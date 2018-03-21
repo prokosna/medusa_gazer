@@ -6,6 +6,5 @@ import org.springframework.boot.runApplication
 @SpringBootApplication
 open class MedusaGazerApplication
 
-fun main(args: Array<String>) {
-    runApplication<MedusaGazerApplication>(*args)
-}
+fun main(args: Array<String>) = runApplication<MedusaGazerApplication>(*args)
+

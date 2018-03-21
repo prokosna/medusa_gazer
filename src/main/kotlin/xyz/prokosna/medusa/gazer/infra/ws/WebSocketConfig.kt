@@ -21,7 +21,5 @@ open class WebSocketConfig(private val dashboardHandler: DashboardHandler) {
     }
 
     @Bean
-    open fun handlerAdaptor(): WebSocketHandlerAdapter {
-        return WebSocketHandlerAdapter()
-    }
+    open fun handlerAdaptor() = WebSocketHandlerAdapter()
 }

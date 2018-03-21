@@ -11,10 +11,7 @@ data class Item(val foo: String)
 
 @Component
 class HelloHandler {
-    fun getHello(req: ServerRequest): Mono<ServerResponse> {
-
-        return ServerResponse.ok()
-                .contentType(MediaType.APPLICATION_JSON_UTF8)
-                .body(Flux.just(Item(foo = "bar")), Item::class.java)
-    }
+    fun getHello(req: ServerRequest): Mono<ServerResponse> = ServerResponse.ok()
+            .contentType(MediaType.APPLICATION_JSON_UTF8)
+            .body(Flux.just(Item(foo = "bar")), Item::class.java)
 }
