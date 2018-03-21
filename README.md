@@ -1,2 +1,3 @@
-# medusa_gazer
-Web API of Medusa
+# Medusa Gazer
+
+Web API of [Medusa](https://github.com/prokosna/medusa)
