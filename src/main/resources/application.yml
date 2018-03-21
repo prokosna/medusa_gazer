@@ -3,3 +3,6 @@ spring:
     url: jdbc:postgresql://127.0.0.1:5432/medusa
     username: medusa
     password: password
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

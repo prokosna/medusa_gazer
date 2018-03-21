@@ -1,4 +1,4 @@
-package xyz.prokosna.medusa_gazer
+package xyz.prokosna.medusa.gazer
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 open class MedusaGazerApplication
 
 fun main(args: Array<String>) {
-    runApplication<MedusaGazerApplication>(args = *args)
+    runApplication<MedusaGazerApplication>(*args)
 }

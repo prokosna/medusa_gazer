@@ -1,4 +1,4 @@
-package xyz.prokosna.medusa_gazer
+package xyz.prokosna.medusa.gazer
 
 import org.junit.Test
 import org.junit.runner.RunWith
