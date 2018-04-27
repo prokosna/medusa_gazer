@@ -1,0 +1,2 @@
+rootProject.name = 'medusa_gazer'
+include ':common', ':worker', ':provider'
